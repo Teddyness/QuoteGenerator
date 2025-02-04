@@ -26,6 +26,6 @@ const getQuote= async ()=>{
         btnElement.innerText = `Refresh Page...`
     }
 }
-getQuote();
+
 btnElement.addEventListener("click", getQuote);
 
